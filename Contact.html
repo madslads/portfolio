@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+  </head>
+  <body>
+  <!--look at mdm webdocs to look at form examples -->
+<h1>~ Contact Me ~</h1>
+<br>
+<h4> + Based in:</h4>
+<h4> + Email</h4>
+<h4> + LinkedIn</h4>
+
+<!-- boxes for input and submitting value (lookat color pickers too) -->
+<form class="" action="index.html" method="post">
+  <label>Your name:</label>
+  <!-- having type be 'password' will mask the text -->
+  <!--input type can be file, date, radio, range, text, etc. -->
+  <input type="" name="" value="">
+  <input type="submit" name="">
+  <!-- <input type="file"> -->
+</form>
+
+<!-- Contact sheet for freelance/ commision design work -->
+<p style="line-height:134%">
+<form action="mailto:maddy.hunt2000@gmail.com" method="post" enctype="text/plain">
+    <label for="full-name">Full Name: </label>
+    <input type="text" name="yourName" id="full-name" placeholder="First and Last">
+    <br>
+    <label for="email-address">Your Email: </label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <br>
+    <label for="message">Message: </label>
+    <br>
+    <textarea rows="5" name="message" id="message" placeholder="Your project idea!" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  <input type="submit" value="Submit">
+</form>
+</p>
+  </body>
+</html>
