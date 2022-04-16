@@ -1,0 +1,473 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300;0,400;1,400&family=Roboto+Slab:wght@300;400&display=swap');
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300;0,400;1,400&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet"> */
+/* Notes: */
+  /* Pesticide for website borders */
+  /* ============================= TAG Selectors ============================== */
+
+*{
+  margin: 0;
+  padding: 0;
+  /* background-color: #151515; */
+ }
+ header{
+   background-color: #151515;
+ }
+
+body{
+  background-color: #151515;
+
+   }
+  p{
+    color: #726A95;
+    /* color: #52057B; */
+  }
+  /* img:hover{
+    image-color: blue;
+  } */
+  h1,h3{
+    color: #E6F5FF;
+    /* margin-left: 10%; */
+    /* color: #BC6FF1; */
+  }
+  h4{
+    color: #8B9A46;
+  }
+
+/* Tutorial for creating menu */
+  li, button{
+    font-family:"Roboto Slab";
+    font-weight:300;
+    font-size: 18px;
+    color: #edf0f1;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+  }
+  .logo{
+    cursor: pointer;
+
+  }
+  .nav_links{
+    list-style: none;
+  }
+  .nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .nav_links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+  }
+  .nav_links li a:hover{
+    color: #726A95;
+    text-shadow: 2px;
+  }
+  button{
+    padding: 9px 25px;
+    background-color: black;
+    border: 2px white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  button:hover{
+    background-color: #726A95;
+  }
+/* End of main menu css */
+
+/* Mads portfolio title div */
+/* .main, .mainheading, .headingMain, .MadsMain em {
+  margin-top: 40vh;
+  background-image: url("C:/Users/maddy/Desktop/allOfEm/WebDev/HTML_PersonalWebsite/HTML_PersonalWebsite/images/BW_website.png");
+} */
+
+.headingMain{
+  /* backdrop-filter: blur(40px); */
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+  /* color: #edf0f1; */
+  color: black;
+  /* text-shadow: 2px 2px white; */
+  font-weight: 1000;
+}
+
+.headingMain, .MadsMain b{
+  /* backdrop-filter: blur(10px); */
+  background-color: #726A95;
+  border: 2px white;
+  /* border-radius: 50px; */
+  margin-left: 10%;
+  margin-right: 10%;
+    /* shape-outside: circle(); */
+}
+
+.mainheading{
+  background: url("C:/Users/maddy/Desktop/allOfEm/WebDev/HTML_PersonalWebsite/HTML_PersonalWebsite/images/BW_website.png") no-repeat center center fixed;
+  background-size: cover;
+  /* filter: blur(10px); */
+  font-family: Red Hat Mono;
+  font-size: 20pt;
+  margin: 0 auto;
+  padding-top: 40vh;
+
+}
+
+.MadsMain{
+  background: url("C:/Users/maddy/Desktop/allOfEm/WebDev/HTML_PersonalWebsite/HTML_PersonalWebsite/images/BW_website.png") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 50vh;
+  /* height: 100vh; */
+
+}
+.MadsMain b{
+  /* backdrop-filter: blur(50px); */
+  padding-left: 25%;
+  padding-right: 25%;
+  font-family: Roboto Slab;
+  font-size: 18pt;
+  color: white;
+  padding-bottom: 10px;
+  /* text-shadow: 3px 3px black; */
+
+}
+
+
+
+/* End of portfolio title div */
+
+/* Scroll Arrow div */
+
+
+html {
+  scroll-behavior: smooth;
+}
+/* End of Scroll Arrow div */
+
+/* About me section */
+.containerAbMe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.abmeImage{
+  padding-right: 60px;
+  flex-basis:70%;
+  order: 2;
+}
+
+
+.aboutmeTitle{
+  font-family: Red Hat Mono;
+  text-align: center;
+  color: #edf0f1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 28px;
+  /* text-decoration: #726A95 underline; */
+
+}
+.aboutme{
+  /* align-items: left; */
+  background-color: #726A95;
+  font-family: Roboto Slab;
+  color: #edf0f1;
+  padding: 20px;
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+/* End of About me section */
+
+  td{
+    color: #B4A5A5;
+    /* color: #8B9A46; */
+  }
+  th{
+    color: #8B9A46;
+  }
+
+  hr{
+    /* background-color: grey; */
+    border-top: none;
+    border-bottom: 3px solid grey;
+    /* width: 20%; */
+  }
+  a{
+    color: white;
+  }
+
+/* Main page: Skills section */
+  .skills{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Red Hat Mono;
+    color: #edf0f1;
+  }
+
+
+  /* Main oage: end of skills section  */
+
+/* =============== Education + Experience =============== */
+
+.education_headline{
+  font-family: Red Hat Mono;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* font-size:  */
+}
+
+/* Actual timeline (vertical ruler) */
+.timeline{
+  position: relative;
+  max-width: 1000px;
+  margin: 0px auto;
+  background-color: #151515;
+}
+
+.timeline::after{
+  content: '';
+  position: absolute;
+  width: 5px;
+  background-color: #8B9A46;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.info{
+  padding: 20px;
+  color: #E6F5FF;
+  background-color: #151515;
+
+}
+
+.container{
+  font-family: Roboto Slab;
+  padding: 20px 40px;
+  position: relative;
+  background-color: #151515;
+  width: 40%;
+}
+.container h2 em{
+  background-color: #151515;
+  color: #E6F5FF;
+  padding-left: 20px;
+  padding-right: 247px;
+
+}
+.container h4{
+  background-color: #151515;
+  color: grey;
+  padding-left: 20px;
+}
+.infoskill{
+  padding-right: 10px;
+  padding-bottom: 20px;
+  color: #726A95;
+  background-color: #151515;
+  padding-left: 20px;
+}
+
+.container p{
+  background-color: #151515;
+  font-family: Roboto Slab;
+}
+
+/* Circles on the timeline */
+.container::after{
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: grey;
+  border: 2px solid white;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+
+}
+
+/* place container to the left */
+.left{
+  left: 0%;
+}
+
+/* place containe0to right */
+.right{
+  left: 50%;
+}
+
+/* add arrows to left of container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 0;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+/* why is there an issue here */
+.left::after{
+  right: -32px;
+}
+
+/* The actual content */
+.content {
+  padding: 10px 10px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+.content p i{
+  padding-left: 20px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+
+  /* Full-width containers */
+  .container {
+  width: 70%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+/* =============== End of Education + Experience =============== */
+
+/* =============== Projects =============== */
+
+.projectbckgrnd{
+  /* background-color: none; */
+  /* background: url("C:/Users/maddy/Desktop/allOfEm/WebDev/HTML_PersonalWebsite/HTML_PersonalWebsite/images/BW_website.png") no-repeat center center fixed; */
+  background-color: #151515;
+  background-size: cover;
+}
+
+.projHeading{
+  font-family: Red Hat Mono;
+  /* font-size: 20pt; */
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+.modeling{
+  font-family: Roboto Slab;
+  margin: 40px;
+  color: #E6F5FF;
+  background-color: #726A95;
+  padding: 40px;
+}
+
+.madsmeimg{
+  background-color: grey;
+}
+
+/* Responsive grid layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 8px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  padding: 5px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    align-items: center;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    align-items: center;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* =============== End of Projects =============== */
+
+
+
+
+/* ============================= ID Selectors ============================== */
