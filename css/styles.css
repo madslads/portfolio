@@ -141,19 +141,14 @@ body{
 
 }
 
-
-
-/* End of portfolio title div */
-
-/* Scroll Arrow div */
-
-
 html {
   scroll-behavior: smooth;
 }
-/* End of Scroll Arrow div */
+/* ============End of Scroll Arrow div============ */
 
-/* About me section */
+
+
+/* ============ About me section ============ */
 .containerAbMe{
   display: flex;
   align-items: center;
@@ -189,7 +184,7 @@ html {
 }
 
 
-/* End of About me section */
+/* =========== End of About me section ============ */
 
   td{
     color: #B4A5A5;
@@ -209,16 +204,94 @@ html {
     color: white;
   }
 
-/* Main page: Skills section */
-  .skills{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: Red Hat Mono;
-    color: #edf0f1;
-  }
+/* ============ Main page: Skills section ============ */
+
+.skills{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Red Hat Mono;
+  color: #edf0f1;
+}
+
+.skilTitles{
+  padding-top: 30px;
+  padding-left: 40px;
+  font-family: Red Hat Mono;
+}
+
+.skillscontainer {
+  margin-left: 40px;
+   width: 95%;
+   background-color: #edf0f1;
+   border-radius: 20px;
+}
+.blender, .adobe, .htmlSkill, .css, .javascript, .animation, .unity, .java, .cpp, .c, .git {
+   text-align: center;
+   font-weight: bolder;
+   padding-top: 3px;
+   padding-bottom: 10px;
+   color: #edf0f1;
+   border-radius: 40px;
+   font-family: Red Hat Mono;
+}
+.blender {
+   width: 100%;
+   background-color: #726A95;
+}
+.adobe {
+   width: 100%;
+   background-color: #726A95;
+}
+.htmlSkill {
+   width: 75%;
+   background-color: #726A95;
+}
+.css {
+   width: 60%;
+   background-color: #726A95;
+}
+.javascript {
+   width: 20%;
+   background-color: #726A95;
+}
+.animation {
+   width: 90%;
+   background-color: #726A95;
+}
+.unity {
+   width: 40%;
+   background-color: #726A95;
+}
+.java {
+   width: 80%;
+   background-color: #726A95;
+}
+.cpp {
+   width: 40%;
+   background-color: #726A95;
+}
+.c {
+   width: 30%;
+   background-color: #726A95;
+}
+.git {
+   width: 60%;
+   background-color: #726A95;
+   margin-bottom: 40px;
+}
 
 
-  /* Main oage: end of skills section  */
+  /* ============== Main page: end of skills section ============ */
+
+
+/* ============ footer ============ */
+
+.foot{
+  padding: 10px;
+  color: white;
+  font-family: Roboto Slab;
+  font-weight: 200;
+}
 
 /* =============== Education + Experience =============== */
 
@@ -396,6 +469,8 @@ html {
 }
 /* =============== End of Education + Experience =============== */
 
+
+
 /* =============== Projects =============== */
 
 .projectbckgrnd{
@@ -447,6 +522,13 @@ html {
   padding: 5px;
 }
 
+.column video{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  padding: 5px;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -467,6 +549,145 @@ html {
 
 /* =============== End of Projects =============== */
 
+/* =============== Contact =============== */
+
+.contactTitle{
+  font-family: Red Hat Mono;
+  color: #E6F5FF;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.intouch{
+  font-family: Red Hat Mono;
+  padding: 20px;
+  color: #726a95;
+}
+
+.contactInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-family: Roboto Slab;
+  color: #E6F5FF;
+  background-color: #726A95;
+  display: inline-block;
+}
+
+/* ===== CONTACT FORM ===== */
+.contactlabel{
+  font-family: Roboto Slab;
+  color: #E6F5FF;
+}
+
+.card {
+  width: 70%;
+  padding: 30px 90px 90px 90px;
+  border: 6px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  position: relative;
+}
+
+.card .row {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid: auto / auto auto;
+  grid-template-columns: repeat(auto-fit,minmax(40%, 1fr));
+  grid-gap: 30px;
+}
+
+.card .row .col {
+  position: relative;
+  width: 100%;
+  margin: 30px 20px 30px 0;
+  transition: 0.5s;
+}
+
+.card .row .form-group {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+}
+
+.card .row .form-group input,
+.card .row .form-group textarea {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  font-size: 24px;
+  padding: 10px 0 10px 20px;
+  border: 5px solid #726A95;
+  /* box-shadow: 10px 10px 0  dark ; */
+  color: #ffffff;
+  border-radius: 50px;
+}
+
+.card .row .form-group label {
+  line-height: 40px;
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0 0 0 30px;
+  display: block;
+  pointer-events: none;
+}
+
+.row .col:nth-child(6) {
+  margin-top: 64px;
+}
+
+.card .row .form-group input:focus,
+.card .row .form-group textarea:focus {
+  border: 5px solid #ffffff;
+  transition: all 0.5s;
+}
+
+.card .row input[type="submit"] {
+  border: 5px solid #726A95;
+  /* box-shadow: 10px 10px 0 #140729; */
+  padding: 10px;
+  height: 100%;
+  width: 50%;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 45px;
+  transition: all 0.4s;
+}
+
+.card .row input[type="submit"]:hover {
+  border: 5px solid rgba(255, 255, 255, 1);
+  color: #ffffff;
+  transition: all 0.4s;
+}
+
+@media screen and (max-width: 900px) {
+  .card .row {
+    grid-template-columns: repeat(auto-fit,minmax(70%, 1fr));
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .card .row input[type="submit"] {
+    width: 100%;
+  }
+}
+
+/* =============== End Contact =============== */
 
 
 
