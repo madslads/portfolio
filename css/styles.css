@@ -108,7 +108,7 @@ body{
 }
 
 .mainheading{
-  background: url('/images/BW_website.png') no-repeat center center fixed;
+  background: url('https://github.com/madslads/portfolio/blob/main/images/BW_website.png') no-repeat center center fixed;
   background-size: cover;
   /* filter: blur(10px); */
   font-family: Red Hat Mono;
@@ -119,7 +119,7 @@ body{
 }
 
 .MadsMain{
-  background: url('/images/BW_website.png') no-repeat center center fixed;
+  background: url('https://github.com/madslads/portfolio/blob/main/images/BW_website.png') no-repeat center center fixed;
   background-size: cover;
   display: flex;
   align-items: center;
