@@ -7,7 +7,7 @@
     <link rel="icon" href="favicon.ico">
   </head>
   <header>
-    <img class="logo" src="images/Abstract_8.png" alt="logo" height="80">
+    <img class="logo" src="images/abs9.png" alt="logo" height="90">
     <nav>
       <ul class="nav_links">
         <li> <a href="index.html"> About Me</a> </li>
@@ -23,19 +23,25 @@
     <h1 class="projHeading" align="center"> Creative Works </h1>
   <hr>
 
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+     <img class="modal-content" id="imgs">
+  <div class="caption"></div>
+  </div>
+
   <!-- Image grid section  -->
   <div class="row">
 <div class="column">
   <h2 class="modeling" align="center"> { 3D Modeling } </h2>
-  <img src="images\ValleyOfOrr_web.png">
-  <img src="images\ValleyOfOrr_web2.png">
-  <img src="images\LowPolyDiorama.png">
+  <img src="images\ValleyOfOrr_web.png" class="img1">
+  <img src="images\ValleyOfOrr_web2.png" class="img2">
+  <img src="images\LowPolyDiorama.png" class="img3">
 </div>
 <div class="column">
-  <img src="images\MetalMonster_img.png">
-  <img src="images\OwlCreaturepng1.png">
-  <img src="images\hornsCreature.png">
-  <img src="images\Robot.png">
+  <img src="images\MetalMonster_img.png" class="img4">
+  <img src="images\OwlCreaturepng1.png" class="img5">
+  <img src="images\hornsCreature.png" class="img6">
+  <img src="images\Robot.png" class="img7">
 </div>
 </div>
 
@@ -44,13 +50,13 @@
   <div class="row">
 <div class="column">
   <h2 class="modeling" align="center"> { Game Design } </h2>
-  <img src="images\12.png">
-  <img src="images\6.png">
+  <img src="images\12.png" class="img8">
+  <img src="images\6.png" class="img9">
 </div>
 <div class="column">
-  <img src="images\5.png">
-  <img src="images\9.png">
-  <img src="images\4.png">
+  <img src="images\5.png" class="img10">
+  <img src="images\9.png" class="img11">
+  <img src="images\4.png" class="img12">
 </div>
 </div>
 
@@ -59,13 +65,19 @@
 <div class="row">
 <div class="column">
 <h2 class="modeling" align="center"> { Animation } </h2>
-<img src="images\12.png">
-<img src="images\6.png">
+  <video class="videoClicks" src="videos\FlyingCreature_video.mp4" autoplay poster="OwlCreaturepng1.png" onclick="this.play()">
+  </video>
+
+  <!-- <img src="images\6.png"> -->
 </div>
 <div class="column">
-<img src="images\5.png">
+  <video class="videoClicks" src="videos\0000.mp4" autoplay poster="ValleyOfOrr_web.png" onclick="this.play()">
+
+  </video>
+  <h2 class="intouch">More coming soon...</h2>
+<!-- <img src="images\5.png">
 <img src="images\9.png">
-<img src="images\4.png">
+<img src="images\4.png"> -->
 </div>
 </div>
 
